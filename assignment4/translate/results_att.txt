@@ -1,0 +1,122 @@
+Number of source words:  8883
+Number of target words:  12861
+Number of training sentences:  33454
+
+17:59:49 Starting training.
+18:10:09 Epoch 0 loss: 42.34563064575195
+Evaluating on the dev data...
+Correctly predicted words    :  985
+Incorrectly predicted words  :  1669
+Correctly predicted sentences  :  6
+Incorrectly predicted sentences:  364
+
+18:20:56 Epoch 1 loss: 24.596437454223633
+18:31:18 Epoch 2 loss: 16.81432342529297
+18:41:40 Epoch 3 loss: 12.121047973632812
+18:52:04 Epoch 4 loss: 9.190343856811523
+19:02:22 Epoch 5 loss: 7.410220146179199
+19:25:41 Epoch 6 loss: 6.286060333251953
+19:44:02 Epoch 7 loss: 5.442807197570801
+19:54:47 Epoch 8 loss: 4.764892578125
+20:05:29 Epoch 9 loss: 4.253947734832764
+20:16:15 Epoch 10 loss: 3.832085371017456
+Evaluating on the dev data...
+Correctly predicted words    :  1557
+Incorrectly predicted words  :  1097
+Correctly predicted sentences  :  78
+Incorrectly predicted sentences:  292
+
+20:27:18 Epoch 11 loss: 3.470853805541992
+20:37:50 Epoch 12 loss: 3.1363539695739746
+20:48:28 Epoch 13 loss: 2.7683963775634766
+20:59:09 Epoch 14 loss: 2.512680768966675
+21:09:38 Epoch 15 loss: 2.335663318634033
+21:28:02 Epoch 16 loss: 2.165949583053589
+21:38:52 Epoch 17 loss: 1.9902513027191162
+21:49:57 Epoch 18 loss: 1.8810044527053833
+22:01:19 Epoch 19 loss: 1.735195517539978
+22:11:49 Epoch 20 loss: 1.5964478254318237
+Evaluating on the dev data...
+Correctly predicted words    :  1571
+Incorrectly predicted words  :  1083
+Correctly predicted sentences  :  78
+Incorrectly predicted sentences:  292
+
+22:22:26 Epoch 21 loss: 1.4922096729278564
+22:33:23 Epoch 22 loss: 1.3823949098587036
+22:44:37 Epoch 23 loss: 1.3321186304092407
+22:54:56 Epoch 24 loss: 1.25015389919281
+23:06:08 Epoch 25 loss: 1.1736515760421753
+23:17:23 Epoch 26 loss: 1.1242293119430542
+23:28:56 Epoch 27 loss: 1.0523518323898315
+23:39:38 Epoch 28 loss: 0.9934083819389343
+23:50:09 Epoch 29 loss: 0.9769285321235657
+00:01:13 Epoch 30 loss: 0.9059911966323853
+Evaluating on the dev data...
+Correctly predicted words    :  1526
+Incorrectly predicted words  :  1128
+Correctly predicted sentences  :  75
+Incorrectly predicted sentences:  295
+
+00:17:32 Epoch 31 loss: 0.8729042410850525
+00:28:04 Epoch 32 loss: 0.8825851082801819
+00:38:12 Epoch 33 loss: 0.8460721373558044
+00:48:19 Epoch 34 loss: 0.7986137866973877
+00:58:29 Epoch 35 loss: 0.740565836429596
+01:08:37 Epoch 36 loss: 0.7334415912628174
+01:19:03 Epoch 37 loss: 0.6979998350143433
+01:30:53 Epoch 38 loss: 0.693153440952301
+01:43:01 Epoch 39 loss: 0.7056796550750732
+01:53:12 Epoch 40 loss: 0.6634256839752197
+Evaluating on the dev data...
+Correctly predicted words    :  1471
+Incorrectly predicted words  :  1183
+Correctly predicted sentences  :  69
+Incorrectly predicted sentences:  301
+
+Evaluating on the test data...
+Number of test sentences:  3346
+
+Correctly predicted words    :  13192
+Incorrectly predicted words  :  12065
+Correctly predicted sentences  :  618
+Incorrectly predicted sentences:  2728
+
+
+> it is seven o'clock.
+klockan är sju . <END> 
++---------------+---------+------+------+------+-------+
+| Source/Result | klockan | är   | sju  | .    | <END> |
++---------------+---------+------+------+------+-------+
+| it            | 0.37    | 0.00 | 0.00 | 0.00 | 0.02  |
+| is            | 0.03    | 0.57 | 0.00 | 0.00 | 0.00  |
+| seven         | 0.12    | 0.42 | 1.00 | 0.00 | 0.06  |
+| o'clock       | 0.44    | 0.00 | 0.00 | 0.15 | 0.28  |
+| .             | 0.04    | 0.00 | 0.00 | 0.84 | 0.64  |
++---------------+---------+------+------+------+-------+
+> i should go to bed now.
+jag borde gå och lägga mig nu . <END> 
++---------------+------+-------+------+------+-------+------+------+------+-------+
+| Source/Result | jag  | borde | gå   | och  | lägga | mig  | nu   | .    | <END> |
++---------------+------+-------+------+------+-------+------+------+------+-------+
+| i             | 1.00 | 0.00  | 0.00 | 0.00 | 0.01  | 0.00 | 0.00 | 0.00 | 0.02  |
+| should        | 0.00 | 0.87  | 0.00 | 0.00 | 0.02  | 0.00 | 0.00 | 0.00 | 0.00  |
+| go            | 0.00 | 0.13  | 0.56 | 0.00 | 0.03  | 0.04 | 0.00 | 0.00 | 0.00  |
+| to            | 0.00 | 0.00  | 0.06 | 0.01 | 0.00  | 0.01 | 0.00 | 0.00 | 0.00  |
+| bed           | 0.00 | 0.00  | 0.37 | 0.96 | 0.94  | 0.47 | 0.03 | 0.01 | 0.05  |
+| now           | 0.00 | 0.00  | 0.00 | 0.03 | 0.00  | 0.43 | 0.83 | 0.23 | 0.05  |
+| .             | 0.00 | 0.00  | 0.00 | 0.00 | 0.00  | 0.05 | 0.13 | 0.76 | 0.87  |
++---------------+------+-------+------+------+-------+------+------+------+-------+
+> i don't like reading books.
+jag tycker inte om att läsa böcker . <END> 
++---------------+------+--------+------+------+------+------+--------+------+-------+
+| Source/Result | jag  | tycker | inte | om   | att  | läsa | böcker | .    | <END> |
++---------------+------+--------+------+------+------+------+--------+------+-------+
+| i             | 1.00 | 0.04   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00   | 0.00 | 0.00  |
+| do            | 0.00 | 0.92   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00   | 0.00 | 0.00  |
+| n't           | 0.00 | 0.04   | 1.00 | 0.12 | 0.00 | 0.00 | 0.00   | 0.00 | 0.00  |
+| like          | 0.00 | 0.00   | 0.00 | 0.77 | 0.00 | 0.00 | 0.00   | 0.00 | 0.00  |
+| reading       | 0.00 | 0.00   | 0.00 | 0.10 | 0.97 | 1.00 | 0.01   | 0.00 | 0.00  |
+| books         | 0.00 | 0.00   | 0.00 | 0.01 | 0.03 | 0.00 | 0.99   | 0.02 | 0.04  |
+| .             | 0.00 | 0.00   | 0.00 | 0.00 | 0.00 | 0.00 | 0.00   | 0.97 | 0.96  |
++---------------+------+--------+------+------+------+------+--------+------+-------+

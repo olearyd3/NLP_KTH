@@ -1,0 +1,1 @@
+python translate.py -te eng-swe-test.txt -l model_2023-05-11_01_53_28_547319 
