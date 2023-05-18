@@ -1,4 +1,4 @@
-# NLP
+# Language Engineering KTH
 
 This repository contains the four assignments I completed during the Language Engineering Masters course (DD2417) with Johan Boye in KTH Stockholm.
 
